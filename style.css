@@ -47,7 +47,7 @@
     margin: .5vh .5vh;
     background-color: white;
     border: 4px solid #187171;
-    border-radius: 50%;
+    border-radius: 4px;
     transform: scale(1);
 }
 
@@ -107,7 +107,7 @@
         margin: .5vh .5vh;
         background-color: white;
         border: 4px solid #187171;
-        border-radius: 50%;
+         border-radius: 4px;
     }
 
 }
@@ -149,7 +149,7 @@
         margin: .5vh .5vh;
         background-color: white;
         border: 4px solid #187171;
-        border-radius: 50%;
+         border-radius: 4px;
     }
 
 }
@@ -190,7 +190,7 @@
         margin: .5vh .5vh;
         background-color: white;
         border: 4px solid #187171;
-        border-radius: 50%;
+         border-radius: 4px;
     }
 
 }
@@ -230,7 +230,7 @@
         margin: .5vh .5vh;
         background-color: white;
         border: 4px solid #187171;
-        border-radius: 50%;
+        border-radius: 4px;
     }
 
 }
