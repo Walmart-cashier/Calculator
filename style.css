@@ -22,7 +22,13 @@
     display: flex;
     flex-direction: column;
 }
-
+.status{
+    height: 2rem;
+    background-color: black;
+    color: aquamarine;
+    margin: 0px 10%;
+    font-size: 1.7rem;
+}
 .calDisplay {
     background-color: aliceblue;
     width: 90%;
@@ -46,9 +52,10 @@
     padding: 1.2rem 1rem;
     margin: .5vh .5vh;
     background-color: white;
-    border: 4px solid #187171;
+    border: 2px solid #187171;
     border-radius: 4px;
     transform: scale(1);
+    box-shadow: 1px 2px ;
 }
 
 
@@ -63,7 +70,7 @@
     color: white;
     text-shadow: 1px 2px black;
     border: .5px solid black;
-    box-shadow: 2px 2px darkcyan;
+    box-shadow: 1px 2px #135f5f;
     text-transform:uppercase;
     background-color: darkcyan;
 }
@@ -106,7 +113,7 @@
         padding: 1.2rem 1rem;
         margin: .5vh .5vh;
         background-color: white;
-        border: 4px solid #187171;
+       border: 2px solid #187171;
          border-radius: 4px;
     }
 
@@ -148,7 +155,7 @@
         padding: 1.2rem 1.2rem;
         margin: .5vh .5vh;
         background-color: white;
-        border: 4px solid #187171;
+        border: 2px solid #187171;
          border-radius: 4px;
     }
 
@@ -189,7 +196,7 @@
         padding: 1.2rem 1.2rem;
         margin: .5vh .5vh;
         background-color: white;
-        border: 4px solid #187171;
+       border: 2px solid #187171;
          border-radius: 4px;
     }
 
@@ -229,11 +236,12 @@
         padding: 1.2rem 1.2rem;
         margin: .5vh .5vh;
         background-color: white;
-        border: 4px solid #187171;
+        border: 2px solid #187171;
         border-radius: 4px;
     }
 
 }
-}
+
+
 
 
