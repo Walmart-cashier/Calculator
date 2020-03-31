@@ -13,7 +13,16 @@ window.addEventListener('load', () => {
         xt="";
         status.textContent= " ";
     })
-
+    
+    window.addEventListener('keydown',(e)=>{
+        switch(e.keyCode){
+            case 49||97:
+                calDisplay.textContent+='1';
+                break;
+             
+            
+        }
+    })
     calButtons.forEach((item) => {
         if (!(item.dataset.val == "=")) {
             if (!(item.dataset.val == "+" || item.dataset.val == "-" || item.dataset.val == "/" || item.dataset.val == "%" || item.dataset.val == "*")) {
@@ -128,9 +137,6 @@ window.addEventListener('load', () => {
 
 
 
-let astr='4+5';
-let newastr=astr.match(/(?<=[\+\-\/\%\*]).*/g).join("");
-//console.log(newastr);
 
 
 });
